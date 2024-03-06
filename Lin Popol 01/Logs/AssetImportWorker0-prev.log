@@ -1,0 +1,666 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32600 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Popol/Lin Popol 01
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55278
+Successfully changed project path to: D:/Popol/Lin Popol 01
+D:/Popol/Lin Popol 01
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29020] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3207323151 [EditorId] 3207323151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9S99DAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29020] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3207323151 [EditorId] 3207323151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9S99DAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Popol/Lin Popol 01/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005686 seconds.
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 457ms
+	BeginReloadAssembly (64ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (62ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (161ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 917ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (210ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (360ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3529.
+Memory consumption went from 120.1 MB to 120.0 MB.
+Total: 2.760500 ms (FindLiveObjects: 0.168000 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.415200 ms  DeleteObjects: 0.108900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3529.
+Memory consumption went from 71.9 MB to 71.9 MB.
+Total: 1.942700 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.070300 ms MarkObjects: 1.705600 ms  DeleteObjects: 0.015300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1314367.586398 seconds.
+  path: Assets/Scenes/TitleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c0cf25fab494615a2548c69fbbaaf') in 0.002626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.993143 seconds.
+  path: Assets/Scenes/New SceneTemplate.scenetemplate
+  artifactKey: Guid(f549d664f4e7b6046a36aaa8758af238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New SceneTemplate.scenetemplate using Guid(f549d664f4e7b6046a36aaa8758af238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cd530b524bda70013fbee401942799') in 0.033449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.907619 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(b7194dd7ff3bcb54d807aa7bc5d2ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(b7194dd7ff3bcb54d807aa7bc5d2ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcd86934f4cd7a257372be243df0933') in 0.000319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5266.772528 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds
+  artifactKey: Guid(21060e7a74283e94e9f253a3085383b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds using Guid(21060e7a74283e94e9f253a3085383b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b895a50fd2750de4e0dfcd272470ca11') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.513904 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art
+  artifactKey: Guid(504e2d4e112bef84b8ec2859962d2bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art using Guid(504e2d4e112bef84b8ec2859962d2bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1391627490da51129be5f7b1e2e6f9') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.560413 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations
+  artifactKey: Guid(ec327dcab621bb044a048330c9ebb79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations using Guid(ec327dcab621bb044a048330c9ebb79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309efd31a240bd048700a3d55bdf5763') in 0.000310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.717900 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1
+  artifactKey: Guid(7dce4f051daf44243a29e8b302c1c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1 using Guid(7dce4f051daf44243a29e8b302c1c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14eb689ebe9b52dd3916ccfa407e918') in 0.000301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.241440 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0000.png
+  artifactKey: Guid(170392485892c0943991129b9cbb3ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0000.png using Guid(170392485892c0943991129b9cbb3ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a17b4415d18c88e2842ccc78269e80') in 0.040801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.504486 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0000.controller
+  artifactKey: Guid(2103880cf08b15646b000bdc8b2e1c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0000.controller using Guid(2103880cf08b15646b000bdc8b2e1c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf558dd786cc2892eb3be168c4dc73') in 0.002641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.858924 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0001.png
+  artifactKey: Guid(c1982d9a7299f964ebf2037f45650a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0001.png using Guid(c1982d9a7299f964ebf2037f45650a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9d1f645dee9b14aba9e8da3b61bbed') in 0.015132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.426504 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0003.png
+  artifactKey: Guid(5c2b607647f64f047aa764ff20eea96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0003.png using Guid(5c2b607647f64f047aa764ff20eea96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bc6143b431b1efd0845edb47cf80d5') in 0.012368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.341868 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0008.png
+  artifactKey: Guid(01da7614ac2fbdd45a376ae9c8a94ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0008.png using Guid(01da7614ac2fbdd45a376ae9c8a94ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a55dd41b1ee23cb5422e0f2f852b5b') in 0.008853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.387195 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0014.png
+  artifactKey: Guid(435b97b7c8e52f3459bd28e509d00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0014.png using Guid(435b97b7c8e52f3459bd28e509d00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e611a45d265c6e4913b246b5acb8cae') in 0.008552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.334914 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0020.png
+  artifactKey: Guid(b1a8eb69ee4cb2d43bb68dd68f8e808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0020.png using Guid(b1a8eb69ee4cb2d43bb68dd68f8e808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5372a2e26723a445783372f5dc8dd97') in 0.008780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.383133 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0024.png
+  artifactKey: Guid(0b6dbc71757073046bd2a3dad5a8bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0024.png using Guid(0b6dbc71757073046bd2a3dad5a8bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6125721fd790d20f1870e6a06ffd391') in 0.008747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.417593 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0029.png
+  artifactKey: Guid(44ea747751d702f4b85c20da683acf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0029.png using Guid(44ea747751d702f4b85c20da683acf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cea6910c9cf39628a75defb9e9b7a50') in 0.008770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.358339 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0034.png
+  artifactKey: Guid(510c9d6ae4f90274ab11bc3de24956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 1/frame0034.png using Guid(510c9d6ae4f90274ab11bc3de24956bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c88ac1633a8c3eb6bdee47712bf553d') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.964582 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000.png
+  artifactKey: Guid(b0efbc267bf5af34ebc3f2f8e5488a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000.png using Guid(b0efbc267bf5af34ebc3f2f8e5488a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174150c80109e9dff2c7026467d04ab5') in 0.010949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.133062 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0000.png
+  artifactKey: Guid(c60ad20e04a1ca548b2f6ae3eec213c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/frame0000.png using Guid(c60ad20e04a1ca548b2f6ae3eec213c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7709862c6ce26221f16f17fb0e2a7fde') in 0.010496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.053580 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0000.png
+  artifactKey: Guid(eeb0e9f70ba6e664e9e6d064e13c821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0000.png using Guid(eeb0e9f70ba6e664e9e6d064e13c821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db529b61f36e6c2752a4e05dc2870a6d') in 0.012010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.260921 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0001.png
+  artifactKey: Guid(290ac8c886cb8634a9f7be080c73ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 4/frame0001.png using Guid(290ac8c886cb8634a9f7be080c73ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32e18c448219f68f00b889101c9670f') in 0.010342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.478014 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 5 (Bonus).png
+  artifactKey: Guid(bfd6160ebe8904647b472b32d03645fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 5 (Bonus).png using Guid(bfd6160ebe8904647b472b32d03645fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5d0489f077785d5ceb255c0e711e3f') in 0.076387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.723229 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 6 (Bonus).png
+  artifactKey: Guid(544358b8e19c78045a3cba76bb127179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 6 (Bonus).png using Guid(544358b8e19c78045a3cba76bb127179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef3dd5cbb6da942fbc9bae7884f1945') in 0.028601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.796859 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 7 (Bonus).png
+  artifactKey: Guid(65cd764d3e245dd439eb0df9e92550fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds/Background 7 (Bonus).png using Guid(65cd764d3e245dd439eb0df9e92550fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c6afb4312e1e026949285590f4c885') in 0.033466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.179087 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000 (1).controller
+  artifactKey: Guid(898f5eb4b06701743bedb93a5d044b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000 (1).controller using Guid(898f5eb4b06701743bedb93a5d044b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc32550a97a44ac06d989d61183f8218') in 0.001438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.401955 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/Pixel Background 2.anim
+  artifactKey: Guid(38facbb94beecff48a56e7456f4ea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/Pixel Background 2.anim using Guid(38facbb94beecff48a56e7456f4ea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76ee73e9f3494c0c2278f2daac0fb4d') in 0.001272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.735713 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/URP/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/URP/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63f2e3203c0758aabde16ab1363328') in 0.050559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.457 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.339 seconds
+Domain Reload Profiling: 5795ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (5339ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3548.
+Memory consumption went from 123.4 MB to 123.4 MB.
+Total: 1.967400 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.692100 ms  DeleteObjects: 0.030300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.079439 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds
+  artifactKey: Guid(d1b62e27406bfcb4190907685be8ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Bonus Backgrounds using Guid(d1b62e27406bfcb4190907685be8ac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fedb20fe6003ca07ce377ab17470a29') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.452 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 869ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3551.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 2.573100 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.177600 ms  DeleteObjects: 0.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.393823 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e843d8b77643ac97ce81cd042657fc') in 0.116386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 136.467883 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/Pixel Background 3.anim
+  artifactKey: Guid(ddab643d351a8324cab171f9ffefc6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 3/Pixel Background 3.anim using Guid(ddab643d351a8324cab171f9ffefc6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaa0d1c41b51db4eed845403d70f6fe') in 0.002706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.762855 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000 (1).controller
+  artifactKey: Guid(898f5eb4b06701743bedb93a5d044b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Art/Animations/Pixel-Art Background 2/frame0000 (1).controller using Guid(898f5eb4b06701743bedb93a5d044b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d693ca4baef545a4fc2655023aefa3') in 0.001997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.432415 seconds.
+  path: Assets/FeonY/Animated Pixel-Art Backgrounds/Scenes/Animated Pixel-Art Backgrounds Demo.unity
+  artifactKey: Guid(c83b82f617d453a47a7e198ea7db07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FeonY/Animated Pixel-Art Backgrounds/Scenes/Animated Pixel-Art Backgrounds Demo.unity using Guid(c83b82f617d453a47a7e198ea7db07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a80025251b8dfb38547a28ee95ae444') in 0.000340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Popol\Lin Popol 01\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 848ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (163ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (401ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.7 MB). Loaded Objects now: 3594.
+Memory consumption went from 127.9 MB to 127.2 MB.
+Total: 2.026300 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.605600 ms  DeleteObjects: 0.216400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.402894 seconds.
+  path: Assets/Warrior free set/Aniamtion/Attack.anim
+  artifactKey: Guid(d580f1d1a428cb040b4d98afe8ba4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior free set/Aniamtion/Attack.anim using Guid(d580f1d1a428cb040b4d98afe8ba4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d018395dc9dad4c766ffd3b2c976ff9') in 0.008662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.661887 seconds.
+  path: Assets/Warrior free set/Sprite Sheet/Warrior_SheetnoEffect.png
+  artifactKey: Guid(3accdbde4e56f5c4e9cfa311b8cef55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior free set/Sprite Sheet/Warrior_SheetnoEffect.png using Guid(3accdbde4e56f5c4e9cfa311b8cef55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb6f88f6b5b2de7004d411a05c2e0a') in 0.228768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.640362 seconds.
+  path: Assets/Warrior free set/Sprite Sheet/Warrior_Sheet-Effect.png
+  artifactKey: Guid(ae72133dacba6ec4eb33ecde48f50e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warrior free set/Sprite Sheet/Warrior_Sheet-Effect.png using Guid(ae72133dacba6ec4eb33ecde48f50e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c2db92a4dd8ccc033117ec7b17f297') in 0.217530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
